@@ -19,4 +19,6 @@ Flags:
   example:
     ./pagetable -n 20 -o offset trace.sample.tr 4 5 8
     prints out the first 20 memory references and shows the offsets of them. And creates pagetable with 3 levels with 4 bits, 5 bits, and 8 bits respectively
+    
+   Once the prgram has run, it will create a new file in the working directory.
   
